@@ -6,7 +6,7 @@ Summary: A GNU file archiving program
 Name: tar
 Epoch: 2
 Version: 1.29
-Release: 4%{?dist}
+Release: 5%{?dist}
 License: GPLv3+
 Group: Applications/Archiving
 URL: http://www.gnu.org/software/tar/
@@ -123,6 +123,9 @@ fi
 %{_infodir}/tar.info*
 
 %changelog
+* Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.29-5
+- annex tito 
+
 * Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.29-4
 - new package built with tito
 
