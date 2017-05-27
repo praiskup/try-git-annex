@@ -5,8 +5,8 @@
 Summary: A GNU file archiving program
 Name: tar
 Epoch: 2
-Version: 1.29
-Release: 4%{?dist}
+Version: 1.30
+Release: 1%{?dist}
 License: GPLv3+
 Group: Applications/Archiving
 URL: http://www.gnu.org/software/tar/
@@ -123,6 +123,9 @@ fi
 %{_infodir}/tar.info*
 
 %changelog
+* Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.30-1
+- new package built with tito
+
 * Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 2:1.29-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
