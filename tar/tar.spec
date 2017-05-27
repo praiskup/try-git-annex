@@ -123,6 +123,9 @@ fi
 %{_infodir}/tar.info*
 
 %changelog
+* Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.29-5
+- annex builder (praiskup@redhat.com)
+
 * Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.29-4
 - new package built with tito
 
