@@ -123,6 +123,12 @@ fi
 %{_infodir}/tar.info*
 
 %changelog
+* Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com> 1.29-4
+- new package built with tito
+
+* Sat May 27 2017 Pavel Raiskup <praiskup@redhat.com>
+- new package built with tito
+
 * Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 2:1.29-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
